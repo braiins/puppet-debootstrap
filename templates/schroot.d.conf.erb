@@ -1,0 +1,10 @@
+[<%= vname %>]
+description=<%= vname %>
+type=directory
+directory=<%= vtarget %>
+<% if arch == 'i386' && @architecture == 'amd64'  -%>
+personality=linux32
+<% end -%>
+root-groups=root,admin
+users=<%= vusers %>
+#script-config=erb

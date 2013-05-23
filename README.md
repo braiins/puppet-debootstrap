@@ -1,4 +1,12 @@
-puppet-debootstrap
-==================
+# puppet-debootstrap
+Puppet Module for managing Chrooted apps via Ubuntu's 'debootstrap'.  
 
-Puppet Module for managing Chrooted apps via 'debootstrap'
+
+## Type and Provider
+
+
+## Wrapper Definition
+
+
+### Example
+
