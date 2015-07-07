@@ -40,7 +40,7 @@ class debootstrap(){
     # Schroot Confs
     file{"/etc/schroot/chroot.d/${vname}.conf":
       content =>  template("debootstrap/schroot.d.conf.erb"),
-      mode    =>  0660,
+      mode    =>  '0660',
       owner   =>  root,
       group   =>  root,
       ensure  =>  $vensure,
